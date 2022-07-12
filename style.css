@@ -63,4 +63,17 @@ body
     transition: 0.5s;
     color: var(--clr);
 }
+.navigation ul li:hover a .icon
+{
+	transform: translateY(-35px);
+}
 .navigation ul li a .text
+{
+    position: relative;
+    color: var(--clr);
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+}
